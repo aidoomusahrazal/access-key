@@ -1,0 +1,27 @@
+.sidenav {
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  background-color: #333;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.navButton {
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+  color: white;
+  background-color: #444;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+.navButton:hover {
+  background-color: #555;
+}

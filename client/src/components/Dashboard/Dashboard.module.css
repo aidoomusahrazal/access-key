@@ -1,0 +1,16 @@
+.dashboard {
+    display: flex;
+    height: 100vh;
+    position: relative;
+  }
+  
+  .content {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #f4f4f9;
+    width: calc(100% - 250px);
+    position: absolute;
+    top: 0;
+    left: 250px;
+    height: 100dvh;
+  }  

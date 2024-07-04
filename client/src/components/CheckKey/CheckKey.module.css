@@ -1,0 +1,49 @@
+.checkKeyContainer {
+  padding: 1rem;
+}
+
+.checkKeyForm {
+  margin-bottom: 1rem;
+}
+
+.label {
+  margin-right: 0.5rem;
+}
+
+.input {
+  margin-right: 0.5rem;
+}
+
+.checkKeyButton {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.checkKeyButton:hover {
+  background-color: #45a049;
+}
+
+.error {
+  color: red;
+  margin-top: 0.5rem;
+}
+
+.keyDetailsTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.keyDetailsTable th, .keyDetailsTable td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.keyDetailsTable th {
+  background-color: #f2f2f2;
+}
