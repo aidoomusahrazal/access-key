@@ -35,7 +35,6 @@ const userController = {
             res.status(500).json({ error: error.message });
           }
     },
-    
     verify : async (req, res) => {
         try {
           console.log(req.params);
